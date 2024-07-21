@@ -1,0 +1,109 @@
+/* Importing custom font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #77dd77 0%, #ffeb3b 100%);
+    text-align: center;
+    padding: 1em 0;
+    color: #fff;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4caf50;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('images/pulse-candy-icon.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #4caf50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content img {
+    max-width: 180px;
+}
+
+.company-info {
+    margin: 20px 0;
+}
+
+.contact-form {
+    max-width: 300px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+}
+
+.contact-form input, 
+.contact-form textarea, 
+.contact-form button {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: #ffeb3b;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #77dd77;
+}
